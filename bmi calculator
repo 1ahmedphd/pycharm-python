@@ -1,0 +1,18 @@
+class Person:
+    def __init__(self , n , w , h):
+        name = n
+        weight = w
+        hight = h
+    def bmi(self):
+        print "bmi :"
+        print self.name
+        print self.weight / self.hight
+
+        if self.weight / self.hight <= 22 :
+            print self.name + " isn't over wieght"
+        elif self.weight / self.hight > 22 :
+            print self.name + " is over wieght"
+
+you = ("your name" , weight kg , hight m )
+
+bmi(you)
